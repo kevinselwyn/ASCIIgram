@@ -6,7 +6,7 @@ Inconvenient Instagram CLI
 
 Have you ever wanted to view Intagram in your terminal, complete with ASCII approximations of the images? Too bad. Here's the program.
 
-![Screenshot](screenshot.png)
+![Screenshot](Screenshot.png)
 
 ##Installation
 
