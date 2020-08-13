@@ -1,14 +1,16 @@
-#ASCIIgram
+> :warning: **The Instagram Legacy API [was disabled](https://www.instagram.com/developer/) on June 29, 2020.** There is no guarantee this program will work with the new/updated API.
+
+# ASCIIgram
 
 Inconvenient Instagram CLI
 
-##Explanation
+## Explanation
 
 Have you ever wanted to view Intagram in your terminal, complete with ASCII approximations of the images? Too bad. Here's the program.
 
 ![Screenshot](Screenshot.png)
 
-##Installation
+## Installation
 
 ```bash
 make && sudo make install
@@ -22,7 +24,7 @@ gcc -o asciigram asciigram.c ... -D_OPEN='"/Applications/Google\\ Chrome.app/Con
 
 Note: This program depends on curses, libcurl, jansson, and libjpeg
 
-##Usage
+## Usage
 
 ```bash
 Usage: asciigram --client_id="<id>" --client_secret="<secret>"
@@ -30,7 +32,7 @@ Usage: asciigram --client_id="<id>" --client_secret="<secret>"
 
 To get a `client_id` and `client_secret`, go to [https://instagram.com/developer/](https://instagram.com/developer/) to register a new application. Make sure to set `http://localhost:1337/` as one of the Redirect URI(s).
 
-##Controls
+## Controls
 
 | Key          | Action         |
 |--------------|----------------|
@@ -39,6 +41,6 @@ To get a `client_id` and `client_secret`, go to [https://instagram.com/developer
 | `o`          | Open photo     |
 | `q`          | Quit program   |
 
-##Acknowledgements
+## Acknowledgements
 
 Credit to Instagram because this breaks some rules. Namely the name (including `gram`) and the fact that it slightly (and terribly) replicates the core user experience of Instagram.
